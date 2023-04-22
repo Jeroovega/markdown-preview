@@ -26,7 +26,7 @@ function App() {
     <div className="bg-[#1f1628] h-full">
       <div className='flex pt-6 items-center flex-col'>
         {/* Parte del editor */}
-        <div className={`flex flex-col justify-center items-center w-[592px]  bg-[#8a4aa3] shadow-2xl shadow-black rounded-md ${activado ? "mb-6" : ""} ${previsualizacion ? "hidden" : ""} `}>
+        <div className={`flex flex-col justify-center items-center xl:w-[592px] md:w-[500px] w-96  bg-[#8a4aa3] shadow-2xl shadow-black rounded-md ${activado ? "mb-6" : ""} ${previsualizacion ? "hidden" : ""} `}>
           <div className='flex w-full justify-between p-2 items-center'>
             <h2 className='text-xl font-bold pl-2 font-fuentecodigo'>Editor</h2>
             <button
@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
         {/* Parte del visualizador */}
-        <div className={`flex flex-col justify-center items-center w-[797px] bg-[#8a4aa3] shadow-2xl shadow-black rounded-md mt-6 mb-7 ${activado ? "hidden" : ""}`}>
+        <div className={`flex flex-col justify-center items-center xl:w-[797px] md:w-[600px] w-96 bg-[#8a4aa3] shadow-2xl shadow-black rounded-md mt-6 mb-7 ${activado ? "hidden" : ""}`}>
           <div className='flex w-full justify-between p-2 items-center'>
             <h2 className='text-xl font-bold pl-2 font-fuentecodigo'>Previsualizador</h2>
             <button
